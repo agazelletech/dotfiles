@@ -1,6 +1,7 @@
 
 #Environment Variables—type "env" to view current variables
 export EDITOR=nvim
+export GITHUBDLVORG="https://github.com/agazelletech"
 export VISUAL=nvim
 export PATH="$PATH:'/Applications/Visual Studio Code.app/Contents/Resources/app/bin'"
 export PATH=$(pyenv root)/shims:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/opt/fzf/bin:
