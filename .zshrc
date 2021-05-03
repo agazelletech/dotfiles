@@ -1,6 +1,6 @@
-export ZSHRCBC=/Users/dlv/Documents/DLV_App_Settings/DLV_Terminal_Settings/DLV_ZSH_Settings/ZSHRC_BaseComponents
-export ZSHSCRIPTS=/Users/dlv/Documents/DLV_App_Settings/DLV_Terminal_Settings/DLV_ZSH_Settings/DLV_ZSH_Scripts
-export ZSHTHEMES=/Users/dlv/Documents/DLV_App_Settings/DLV_Terminal_Settings/DLV_ZSH_Settings/DLV_ZSH_Themes
+export ZSHRCBC=$HOME/Documents/DLV_App_Settings/DLV_Terminal_Settings/DLV_ZSH_Settings/ZSHRC_BaseComponents
+export ZSHSCRIPTS=$HOME/Documents/DLV_App_Settings/DLV_Terminal_Settings/DLV_ZSH_Settings/DLV_ZSH_Scripts
+export ZSHTHEMES=$HOME/Documents/DLV_App_Settings/DLV_Terminal_Settings/DLV_ZSH_Settings/DLV_ZSH_Themes
 
 #Zshrc BaseComponents
 source $ZSHRCBC/dlv_prompt_settings.zsh
