@@ -1,0 +1,24 @@
+
+// cd to the project's directory and run this command.
+// It will create a Storybook object with startup addons.
+'npx sb init'
+
+//Install addon Dev-Dependencies. Space separate addon names.
+//A list of the addons are in the package.json file.
+'yarn add -D @storybook/addons @storybook/components @storybook/theming babel-plugin-styled-components storybook-addon-designs storybook-addon-styled-component-theme storybook-zeplin'
+
+//Install addon Dependencies.
+'yarn add @storybook/addon-a11y storybook-addon-xd-designs storybook-addons-abstract styled-components styled-theming'
+
+//Add resolutions block to the end of package.json file.
+"resolutions":{
+  "styled-components": "^5"
+}
+
+//Add four files from Custom_Manager_Configs folder:
+DLVTheme.js
+main.js
+manager.js
+preview.js
+
+//Add .babelrc from React_Styled-Components_settings folder to project root folder.

@@ -1,0 +1,17 @@
+{
+    "plugins": [     
+        [
+            "babel-plugin-styled-components",
+            {
+                "displayName": true,
+                "fileName": true,
+                "minify": false,
+                "namespace": "dlv",
+                "pure": true,
+                "ssr": true,
+                "transpileTemplateLiterals": true
+            }
+        ]
+    
+    ]
+}
